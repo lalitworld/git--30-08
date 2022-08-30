@@ -6,3 +6,4 @@ class Teacher(models.Model):
     number = models.IntegerField()
     class Meta:
         db_table ='Teacher'
+        
